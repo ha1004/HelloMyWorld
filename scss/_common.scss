@@ -1,0 +1,24 @@
+header {z-index: 100;}
+h1 {font-size: 8.6rem;  }
+h4 {font-size: 2.5rem;}
+
+section {height:100vh; background: #292929; 
+  transition: transform 1s; 
+}
+.wrapper{
+	transition: transform 1s;
+}
+
+section h2 {font-size: 6rem;}
+.rel{
+  min-width: 1200px;
+}
+
+
+// 원스크롤
+header {transition: 0.5s ease-in;}
+::-webkit-scrollbar {display: none; }
+section{ }
+header.scrl {
+  
+}
